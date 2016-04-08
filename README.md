@@ -12,7 +12,8 @@
 
 ```
 1. git clone https://github.com/bylomedia/movizo-player-android.git
-2. AndroidStudioでサンプルプロジェクト(./movizo-player-android/jp/movizo/android/player/Example/)を開き、ビルド＆実行します。
+
+2. AndroidStudioでサンプルアプリ(./movizo-player-android/jp/movizo/android/player/Example/)をビルド＆実行します。
 ```
 
 ## 制限
