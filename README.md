@@ -1,14 +1,21 @@
-# movizo-android-player-sdk
+# movizo-player-android
 
-動画配信サービス「モビゾ」の利用者のためのAndroid SDKです。
+動画配信サービス「モビゾ」の利用者のためのAndroid SDKとサンプルアプリです。
 
 ## 説明
 
-* Movizoにアップロードした動画を再生するAndroidアプリを簡単に作成でき、動画の視聴ログも記録できます。
+* 動画配信サービス「モビゾ」にアップロードした動画を再生するAndroidアプリを簡単に作成でき、動画の視聴ログも記録できます。
 
-* 利用方法につきましては、[サンプルプログラム](https://github.com/bylomedia/movizo-android-player-sdk-sample)をご参照ください。
+* 利用方法につきましては、サンプルプログラムをご参照ください。
 
-## 制限事項
+* サンプルプログラムの利用方法
+
+```
+1. git clone https://github.com/bylomedia/movizo-player-android.git
+2. AndroidStudioでサンプルプロジェクト(./movizo-player-android/jp/movizo/android/player/Example/)を開き、ビルド＆実行します。
+```
+
+## 制限
 
 * MovizoのアカウントID、動画IDが必要です。
 
