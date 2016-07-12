@@ -20,7 +20,7 @@ android {
 }
 
 repositories {
-    maven { url 'http://raw.github.com/bylomedia/movizo-android-player-sdk/master' }
+    maven { url 'http://raw.github.com/bylomedia/movizo-player-android/master' }
 }
 
 dependencies {
@@ -28,5 +28,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.google.android.exoplayer:exoplayer:r1.2.4'
-    compile 'jp.movizo.android.player:library:1.0.0'
+    compile 'jp.movizo.android.player:library:1.0.1'
 }
