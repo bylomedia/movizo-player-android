@@ -35,9 +35,14 @@ public class MainActivity extends AppCompatActivity implements MovizoPlayer.List
         player.addListener(this);
 
         // 動画の読み込み（必須）
-        // MOVIZOのアカウントID(ここではAAAAAAAA),動画ID(ここではMMMMMMMM),及び配信方法をセットします。
-        // 配信方法は、HLSストリーミング(MovizoUtil.Format.HLS)、またはダウンロード再生(MovizoUtil.Format.M4V)のいづれかを指定します。
-        player.loadMovie("AAAAAAAA", "MMMMMMMM", MovizoUtil.Format.HLS);
+        // MOVIZOのアカウントID,動画ID,プロファイルID、および配信方法をセットします。
+        // 各IDはMOVIZOコンソール(https://console.movizo.jp)で確認できます。
+        // 配信方法はストリーミング(MovizoUtil.Format.Streaming)・プログレッシブダウンロード(MovizoUtil.Format.Progressive)・インライン(MovizoUtil.Format.Inline)のいずれかです。
+        // プロファイルIDと一致する配信方法を記述してください。
+        //
+        // ここではサンプル動画として、
+        // アカウントID="AAAAAAAA",動画ID="MMMMMMMM",プロファイルID="PPPPPPPP",配信方法=MovizoUtil.Format.Streaming を指定しています。
+        player.loadMovie("AAAAAAAA", "MMMMMMMM", "PPPPPPPP", MovizoUtil.Format.Streaming);
 
         // ループ再生（任意）
         // ループ再生する場合はtrueをセットします。（デフォルトはfalse）
